@@ -101,7 +101,7 @@ kap4 = [
 r = random
 @app.route('/')
 def hello():
-    return "Hello"
+    return menu() + addScript()
 
 
 @app.route('/1')
